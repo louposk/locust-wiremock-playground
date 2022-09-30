@@ -1,0 +1,8 @@
+{
+  "services" : [ {
+    "id" : "6d9j8",
+    "name" : "Locust",
+    "port" : 8000,
+    "rootDir" : "locust"
+  } ]
+}
