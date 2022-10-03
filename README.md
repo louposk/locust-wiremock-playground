@@ -57,7 +57,7 @@ locust -V
 ![image](https://user-images.githubusercontent.com/113723/193520478-b479bb50-ddef-4345-bd62-aa04deb5ae99.png)
 
 # Execution
-## Sample test with no parameters
+## Test with no parameters
 The playground contains 3 diferent locust files.
 
 To execute a test, just run the following:
@@ -73,6 +73,7 @@ When the "Start swarming" is pressed, the execution starts:
 ![image](https://user-images.githubusercontent.com/113723/193532431-1306ec6b-dee3-4a40-abd0-301d0f59f68c.png)
 
 
+## Test with parameters
 To add more command properties, the command can be updated:
 ```
 locust -f sample1 -u 10 -r 3 -H http://localhost:8000
