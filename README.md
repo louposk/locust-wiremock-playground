@@ -77,3 +77,5 @@ To add more command properties, the command can be updated:
 ```
 locust -f sample1 -u 10 -r 3 -H http://localhost:8000
 ```
+
+More commands can be found here: https://docs.locust.io/en/stable/configuration.html#all-available-configuration-options
