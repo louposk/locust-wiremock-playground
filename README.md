@@ -67,3 +67,13 @@ locust -f=sample1.py
 ```
 
 After each execution, a localhost is provided by Locust, where you can open it in your browser: 
+![image](https://user-images.githubusercontent.com/113723/193532328-4af84b7f-4e51-4d1f-bb81-31edab33d00a.png)
+
+When the "Start swarming" is pressed, the execution starts:
+![image](https://user-images.githubusercontent.com/113723/193532431-1306ec6b-dee3-4a40-abd0-301d0f59f68c.png)
+
+
+To add more command properties, the command can be updated:
+```
+locust -f sample1 -u 10 -r 3 -H http://localhost:8000
+```
